@@ -1,0 +1,82 @@
+body {
+    background-color: #222222;
+    margin: 0;
+}
+
+
+#container {
+    background-color: #33a5da;
+    display: flex;
+}
+
+.card_container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10vw;
+    height: 50vh;
+    width: 60vw;
+}
+.name {
+    display: flex;
+    position: absolute;
+    top: 230px;
+    right: 850px;
+    font-size: 30px;
+    border-bottom: solid #33a5da 3px;
+
+}
+.id {
+    display: flex;
+    margin-left: 50vw;
+    
+    
+}
+.fact {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+#prev {
+    position: relative;
+    right: 360px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 17px;
+    top: 8px;
+
+}
+#next {
+    position: relative;
+    left: 360px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 17px;
+    top: 8px;
+}
+#movie {
+    display: flex;
+    flex-direction: row;
+}
+i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+}
+.arrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    
+    
+}
+#arrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
